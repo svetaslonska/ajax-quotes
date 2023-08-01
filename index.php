@@ -1,12 +1,14 @@
-<html>
   <head>
-    <title>PHP Test Page</title>
+    <title>AJAX Quotes</title>
   </head>
   <body>
-    <h1>PHP Test Page</h1>
-    <?php
-    echo '<p>This is PHP!</p>';
-    ?>
-  
+    <h1>AJAX Quotes</h1>
+    <p>Click to view a random quote</p>
+    <button onclick="getRandomQuote()">Get Random Quote</button>
+    <script>
+      function getRandomQuote(){
+        alert("It works!");
+      }
+    </script>
   </body>
 </html>
